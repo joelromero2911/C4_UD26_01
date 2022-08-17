@@ -17,7 +17,7 @@ public class Proveedor {
 	private String nombre;
 	
 	@OneToMany
-	@JoinColumn(name="id_auto")
+	@JoinColumn(name="id_proveedor")
 	private List<Suministra> suministra;
 
 	/**

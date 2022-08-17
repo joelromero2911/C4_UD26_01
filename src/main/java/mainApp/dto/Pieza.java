@@ -17,7 +17,7 @@ public class Pieza {
 	private String nombre;
 	
 	@OneToMany
-	@JoinColumn(name="id_auto")
+	@JoinColumn(name="codigo_pieza")
 	private List<Suministra> suministra;
 
 	/**
